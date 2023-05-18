@@ -1,0 +1,31 @@
+*{
+    font-family: cursive;
+    background: #000;
+    color: #fff;
+    margin-top: 45px;
+}
+#inputFeet{
+    width: 257px;
+    height: 24px;
+    margin-left: 58px;
+    margin-top: 35px;
+    padding-left: 10px;
+}
+#meters{ 
+    margin-left: 58px;
+    margin-top: 35px;
+    padding-left: 1px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    width: 500px;
+    margin-left: 600px;
+}
+h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}

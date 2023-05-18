@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Length Converter</h1>
+    <div class="container">
+        <p>Convert the value from Feet into Meter</p>
+   <p>
+    <label for="">Feet</label>
+    <input type="number" id="inputFeet" placeholder="Feet"
+    oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)"></p>
+    <p>Meters: <span id="meters"></span></p>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
